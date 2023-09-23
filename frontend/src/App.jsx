@@ -10,8 +10,8 @@ import AuthPage from "./pages/Auth/AuthPage";
 const App = () => {
   return (
     <Routes>
-      {/* <Route path="/" element={<AuthPage />} /> */}
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<AuthPage />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/books/create" element={<CreateBook />} />
       <Route path="/books/details/:id" element={<ShowBook />} />
       <Route path="/books/edit/:id" element={<EditBook />} />
