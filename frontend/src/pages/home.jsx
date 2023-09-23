@@ -4,7 +4,7 @@ import Spinner from "../components/spinner";
 import { Link } from "react-router-dom";
 import { MdOutlineAddBox } from "react-icons/md";
 import { useAuth0 } from "@auth0/auth0-react";
-import BooksTable from "../components/home/BooksTable";
+import BooksTable from "../components/home/Bookstable";
 import BooksCard from "../components/home/BooksCard";
 
 const Home = () => {
