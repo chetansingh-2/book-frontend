@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     authorizationParams={{
       // redirect_uri: "https://book-frontend-rust.vercel.app/home",
 
-      redirectUri: `${window.location.origin}/home, appState: {returnTo: href }`
+      redirect_uri: `${window.location.origin}/home`,
     }}
   >
     <SnackbarProvider>
