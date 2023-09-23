@@ -4,8 +4,8 @@ import Spinner from "../components/spinner";
 import { Link } from "react-router-dom";
 import { MdOutlineAddBox } from "react-icons/md";
 import { useAuth0 } from "@auth0/auth0-react";
-import BooksTable from "../components/home/Bookstable";
-import BooksCard from "../components/home/BooksCard";
+import BooksTable from "../components/Home/Bookstable";
+import BooksCard from "../components/Home/BooksCard";
 
 const Home = () => {
   const [books, setBooks] = useState([]);
