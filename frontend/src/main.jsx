@@ -8,19 +8,19 @@ import LoginButton from "./pages/Auth/AuthPage.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Auth0Provider
-    domain="chetansingh63.us.auth0.com"
-    clientId="z9w2u6kpmfWCMvBySSrGTzfol6cGQAVP"
-    authorizationParams={{
-      // redirect_uri: "https://book-frontend-rust.vercel.app/home",
+  // <Auth0Provider
+  //   domain="chetansingh63.us.auth0.com"
+  //   clientId="z9w2u6kpmfWCMvBySSrGTzfol6cGQAVP"
+  //   authorizationParams={{
+  //     redirect_uri: "https://book-frontend-rust.vercel.app/home?",
 
-      redirect_uri: `${window.location.origin}`,
-    }}
-  >
+  //     // redirect_uri: `${window.location.origin}`,
+  //   }}
+  
     <SnackbarProvider>
       <BrowserRouter>
         <App />
       </BrowserRouter>
     </SnackbarProvider>
-  </Auth0Provider>
+
 );
