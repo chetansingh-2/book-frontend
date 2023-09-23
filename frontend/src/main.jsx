@@ -12,7 +12,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     domain="chetansingh63.us.auth0.com"
     clientId="z9w2u6kpmfWCMvBySSrGTzfol6cGQAVP"
     authorizationParams={{
-      redirect_uri: "https://book-frontend-rust.vercel.app/home",
+      // redirect_uri: "https://book-frontend-rust.vercel.app/home",
+
+      redirectUri: `${window.location.origin}/home, appState: {returnTo: href }`
     }}
   >
     <SnackbarProvider>
